@@ -1,0 +1,45 @@
+h1 {
+    font-weight:300;
+    font-family:Roboto, sans-serif;
+    text-align: center;
+
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:collapse;
+    width:50%;
+}
+
+
+th {
+    text-align:left;
+    color:#1db954; 
+    height:2rem;
+    background-color:#d3d3d3;
+}
+
+th,td {
+    padding:.5em;
+    border-bottom:1px solid #d3d3d3;
+
+}
+
+
+tr{
+    background:#d3d3d3;
+}
+
+tbody tr:nth-of-type(even){
+    background-color:#eee;
+}
+
+tbody tr:hover{
+    background-color:pink;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
